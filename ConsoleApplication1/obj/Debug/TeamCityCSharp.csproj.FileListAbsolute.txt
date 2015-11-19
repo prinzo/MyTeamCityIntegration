@@ -1,0 +1,14 @@
+C:\Development\TeamCityCSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\TeamCityCSharp.exe.config
+C:\Development\TeamCityCSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\TeamCityCSharp.exe
+C:\Development\TeamCityCSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\TeamCityCSharp.pdb
+C:\Development\TeamCityCSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Development\TeamCityCSharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\Development\TeamCityCSharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\TeamCityCSharp.exe
+C:\Development\TeamCityCSharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\TeamCityCSharp.pdb
+C:\Development\MyTeamCityIntegration\ConsoleApplication1\ConsoleApplication1\bin\Debug\TeamCityCSharp.exe.config
+C:\Development\MyTeamCityIntegration\ConsoleApplication1\ConsoleApplication1\obj\Debug\TeamCityCSharp.exe
+C:\Development\MyTeamCityIntegration\ConsoleApplication1\ConsoleApplication1\obj\Debug\TeamCityCSharp.pdb
+C:\Development\MyTeamCityIntegration\ConsoleApplication1\ConsoleApplication1\bin\Debug\TeamCityCSharp.exe
+C:\Development\MyTeamCityIntegration\ConsoleApplication1\ConsoleApplication1\bin\Debug\TeamCityCSharp.pdb
+C:\Development\MyTeamCityIntegration\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Development\MyTeamCityIntegration\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
