@@ -45,10 +45,14 @@
   <ItemGroup>
     <Compile Include="MyTeamCity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TeamCityModels\Agent.cs" />
+    <Compile Include="TeamCityModels\AgentList.cs" />
     <Compile Include="TeamCityModels\BaseBuild.cs" />
     <Compile Include="TeamCityModels\Build.cs" />
     <Compile Include="TeamCityModels\change.cs" />
     <Compile Include="TeamCityModels\lastChanges.cs" />
+    <Compile Include="TeamCityModels\Project.cs" />
+    <Compile Include="TeamCityModels\ProjectList.cs" />
     <Compile Include="TeamCityModels\TeamCityBuildList.cs" />
     <Compile Include="TeamCityModels\UserList.cs" />
     <Compile Include="TeamCityModels\User.cs" />

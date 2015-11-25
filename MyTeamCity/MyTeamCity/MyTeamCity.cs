@@ -61,5 +61,42 @@ namespace MyTeamCity
             }
         }
 
+        public async Task<ProjectList> GetAllProjects()
+        {
+            using (webClient = new HttpClient())
+            {
+                webClient.BaseAddress = new Uri(TeamCityServer);
+                webClient.DefaultRequestHeaders.Accept.Clear();
+                webClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                var encoded = System.Convert.ToBase64String(System.Text.Encoding.GetEncoding("ISO-8859-1")
+                  .GetBytes(
+                  Username + ":" + Password));
+                webClient.DefaultRequestHeaders.Add("Authorization", "Basic " + encoded);
+                var response = await webClient.GetAsync("app/rest/projects");
+                var responseAsyncString = response.Content.ReadAsStringAsync();
+                var responseResult = responseAsyncString.Result;
+
+                return JsonConvert.DeserializeObject<ProjectList>(responseResult);
+            }
+        }
+
+        public async Task<AgentList> GetAllAgents()
+        {
+            using (webClient = new HttpClient())
+            {
+                webClient.BaseAddress = new Uri(TeamCityServer);
+                webClient.DefaultRequestHeaders.Accept.Clear();
+                webClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                var encoded = System.Convert.ToBase64String(System.Text.Encoding.GetEncoding("ISO-8859-1")
+                  .GetBytes(
+                  Username + ":" + Password));
+                webClient.DefaultRequestHeaders.Add("Authorization", "Basic " + encoded);
+                var response = await webClient.GetAsync("app/rest/agents");
+                var responseAsyncString = response.Content.ReadAsStringAsync();
+                var responseResult = responseAsyncString.Result;
+
+                return JsonConvert.DeserializeObject<AgentList>(responseResult);
+            }
+        }
     }
 }
