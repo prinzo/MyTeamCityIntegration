@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\BuildStatus.cs" />
     <Compile Include="MyTeamCity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TeamCityModels\Agent.cs" />

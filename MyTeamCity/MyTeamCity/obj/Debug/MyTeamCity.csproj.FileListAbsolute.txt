@@ -4,3 +4,4 @@ C:\Development\MyTeamCity\MyTeamCityIntegration\MyTeamCity\MyTeamCity\obj\Debug\
 C:\Development\MyTeamCity\MyTeamCityIntegration\MyTeamCity\MyTeamCity\obj\Debug\MyTeamCity.pdb
 C:\Development\MyTeamCity\MyTeamCityIntegration\MyTeamCity\MyTeamCity\bin\Debug\Newtonsoft.Json.dll
 C:\Development\MyTeamCity\MyTeamCityIntegration\MyTeamCity\MyTeamCity\bin\Debug\Newtonsoft.Json.xml
+C:\Development\MyTeamCity\MyTeamCityIntegration\MyTeamCity\MyTeamCity\obj\Debug\MyTeamCity.csprojResolveAssemblyReference.cache

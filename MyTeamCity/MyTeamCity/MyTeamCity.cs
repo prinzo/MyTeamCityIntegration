@@ -3,6 +3,7 @@ using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using MyTeamCity.Enums;
 using MyTeamCity.TeamCityModels;
 using Newtonsoft.Json;
 
@@ -96,6 +97,44 @@ namespace MyTeamCity
                 var responseResult = responseAsyncString.Result;
 
                 return JsonConvert.DeserializeObject<AgentList>(responseResult);
+            }
+        }
+
+        public async Task<TeamCityBuildList> GetAllSuccessfulBuilds()
+        {
+            using (webClient = new HttpClient())
+            {
+                webClient.BaseAddress = new Uri(TeamCityServer);
+                webClient.DefaultRequestHeaders.Accept.Clear();
+                webClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                var encoded = System.Convert.ToBase64String(System.Text.Encoding.GetEncoding("ISO-8859-1")
+                  .GetBytes(
+                  Username + ":" + Password));
+                webClient.DefaultRequestHeaders.Add("Authorization", "Basic " + encoded);
+                var response = await webClient.GetAsync("app/rest/builds?locator=status:" + BuildStatus.SUCCESS);
+                var responseAsyncString = response.Content.ReadAsStringAsync();
+                var responseResult = responseAsyncString.Result;
+
+                return JsonConvert.DeserializeObject<TeamCityBuildList>(responseResult);
+            }
+        }
+
+        public async Task<TeamCityBuildList> GetAllUnsuccessfulBuilds()
+        {
+            using (webClient = new HttpClient())
+            {
+                webClient.BaseAddress = new Uri(TeamCityServer);
+                webClient.DefaultRequestHeaders.Accept.Clear();
+                webClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                var encoded = System.Convert.ToBase64String(System.Text.Encoding.GetEncoding("ISO-8859-1")
+                  .GetBytes(
+                  Username + ":" + Password));
+                webClient.DefaultRequestHeaders.Add("Authorization", "Basic " + encoded);
+                var response = await webClient.GetAsync("app/rest/builds?locator=status:" + BuildStatus.FAILURE);
+                var responseAsyncString = response.Content.ReadAsStringAsync();
+                var responseResult = responseAsyncString.Result;
+
+                return JsonConvert.DeserializeObject<TeamCityBuildList>(responseResult);
             }
         }
     }
