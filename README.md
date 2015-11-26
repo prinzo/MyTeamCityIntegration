@@ -15,8 +15,8 @@ Feel free to fork and send me your ideas.
 
 ####Builds
 
-```GetAllBuilds()```
-```GetAllSuccessfulBuilds()```
+```GetAllBuilds();```
+```GetAllSuccessfulBuilds();```
 ```GetAllUnsuccessfulBuilds()```
 ```GetBuildsSinceDate()```
 ```GetAllBuildsWithStatusSinceDate()```
@@ -30,7 +30,7 @@ Feel free to fork and send me your ideas.
 ```GetAllUsers()```
 
 ####Projects
-```GetAllProjects()
+```GetAllProjects()```
 
 ####Agents
 ```GetAllAgents()```
