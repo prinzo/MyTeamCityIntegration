@@ -15,25 +15,30 @@ Feel free to fork and send me your ideas.
 
 ####Builds
 
-```GetAllBuilds();```
-```GetAllSuccessfulBuilds();```
-```GetAllUnsuccessfulBuilds()```
-```GetBuildsSinceDate()```
-```GetAllBuildsWithStatusSinceDate()```
-```GetAllBuildsWithStatus()```
-```GetBuildsByUser()```
-```GetBuildsByUserWithStatus()```
-```GetBuildsByUserWithStatusForProject()```
-```GetLastBuildWithStatusForProject()```
+GetAllBuilds();
+
+GetAllSuccessfulBuilds();
+
+GetAllUnsuccessfulBuilds()
+
+GetBuildsSinceDate()
+
+GetAllBuildsWithStatusSinceDate()
+
+GetAllBuildsWithStatus()
+GetBuildsByUser()
+GetBuildsByUserWithStatus()
+GetBuildsByUserWithStatusForProject()
+GetLastBuildWithStatusForProject()
 
 ####Users
-```GetAllUsers()```
+GetAllUsers()
 
 ####Projects
-```GetAllProjects()```
+GetAllProjects()
 
 ####Agents
-```GetAllAgents()```
+GetAllAgents()
 
 ##License
 
