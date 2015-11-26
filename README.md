@@ -10,7 +10,7 @@ Feel free to fork and send me your ideas.
 ###Usage:
 ```var myTeamCity = new MyTeamCity("username", "password", "TeamCityServer");```
 
-```var successfulBuilds = myTeamCity.GetAllSuccessfulBuilds();```
+```var successfulBuilds = myTeamCity.GetAllSuccessfulBuilds().Result;```
 
 
 ####Builds
