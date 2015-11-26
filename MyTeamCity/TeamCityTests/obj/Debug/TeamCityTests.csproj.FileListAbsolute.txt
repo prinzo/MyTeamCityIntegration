@@ -1,0 +1,9 @@
+C:\Development\MyTeamCityIntegration\MyTeamCity\TeamCityTests\bin\Debug\TeamCityTests.dll
+C:\Development\MyTeamCityIntegration\MyTeamCity\TeamCityTests\bin\Debug\TeamCityTests.pdb
+C:\Development\MyTeamCityIntegration\MyTeamCity\TeamCityTests\bin\Debug\MyTeamCity.dll
+C:\Development\MyTeamCityIntegration\MyTeamCity\TeamCityTests\bin\Debug\Newtonsoft.Json.dll
+C:\Development\MyTeamCityIntegration\MyTeamCity\TeamCityTests\bin\Debug\MyTeamCity.pdb
+C:\Development\MyTeamCityIntegration\MyTeamCity\TeamCityTests\bin\Debug\Newtonsoft.Json.xml
+C:\Development\MyTeamCityIntegration\MyTeamCity\TeamCityTests\obj\Debug\TeamCityTests.csprojResolveAssemblyReference.cache
+C:\Development\MyTeamCityIntegration\MyTeamCity\TeamCityTests\obj\Debug\TeamCityTests.dll
+C:\Development\MyTeamCityIntegration\MyTeamCity\TeamCityTests\obj\Debug\TeamCityTests.pdb

@@ -5,3 +5,10 @@ C:\Development\MyTeamCity\MyTeamCityIntegration\MyTeamCity\MyTeamCity\obj\Debug\
 C:\Development\MyTeamCity\MyTeamCityIntegration\MyTeamCity\MyTeamCity\bin\Debug\Newtonsoft.Json.dll
 C:\Development\MyTeamCity\MyTeamCityIntegration\MyTeamCity\MyTeamCity\bin\Debug\Newtonsoft.Json.xml
 C:\Development\MyTeamCity\MyTeamCityIntegration\MyTeamCity\MyTeamCity\obj\Debug\MyTeamCity.csprojResolveAssemblyReference.cache
+C:\Development\MyTeamCityIntegration\MyTeamCity\MyTeamCity\bin\Debug\MyTeamCity.dll
+C:\Development\MyTeamCityIntegration\MyTeamCity\MyTeamCity\bin\Debug\MyTeamCity.pdb
+C:\Development\MyTeamCityIntegration\MyTeamCity\MyTeamCity\bin\Debug\Newtonsoft.Json.dll
+C:\Development\MyTeamCityIntegration\MyTeamCity\MyTeamCity\bin\Debug\Newtonsoft.Json.xml
+C:\Development\MyTeamCityIntegration\MyTeamCity\MyTeamCity\obj\Debug\MyTeamCity.csprojResolveAssemblyReference.cache
+C:\Development\MyTeamCityIntegration\MyTeamCity\MyTeamCity\obj\Debug\MyTeamCity.dll
+C:\Development\MyTeamCityIntegration\MyTeamCity\MyTeamCity\obj\Debug\MyTeamCity.pdb
