@@ -26,9 +26,13 @@ GetBuildsSinceDate()
 GetAllBuildsWithStatusSinceDate()
 
 GetAllBuildsWithStatus()
+
 GetBuildsByUser()
+
 GetBuildsByUserWithStatus()
+
 GetBuildsByUserWithStatusForProject()
+
 GetLastBuildWithStatusForProject()
 
 ####Users
@@ -44,7 +48,7 @@ GetAllAgents()
 
 The MIT License (MIT)
 
-Copyright (c) 2015 kurtvining
+Copyright (c) 2015 prinay panday
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
