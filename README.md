@@ -7,6 +7,13 @@ I am currently developing more functionality and refactoring the implementation.
 
 Feel free to fork and send me your ideas.
 
+###Setup
+Clone this repository, build the project and reference MyTeamCity.dll
+
+OR
+
+Via Nuget: Install-Package MyTeamCity
+
 ###Usage:
 ```var myTeamCity = new MyTeamCity("username", "password", "TeamCityServer");```
 
