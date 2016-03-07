@@ -10,7 +10,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveAllBuilds()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetAllBuilds().Result;
@@ -20,7 +20,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveAllAgents()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetAllAgents().Result;
@@ -30,7 +30,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveAllUsers()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetAllUsers().Result;
@@ -40,7 +40,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveAllProjects()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetAllProjects().Result;
@@ -50,7 +50,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveAllSuccessfulBuilds()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetAllSuccessfulBuilds().Result;
@@ -60,7 +60,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveAllUnsuccessfulBuilds()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetAllUnsuccessfulBuilds().Result;
@@ -70,7 +70,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveAllBuildsSinceDate()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetBuildsSinceDate(new DateTime(01,01,01)).Result;
@@ -80,7 +80,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveAllBuildsWithStatusSinceDate()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetAllBuildsWithStatusSinceDate(new DateTime(01,01,01), BuildStatus.SUCCESS).Result;
@@ -90,7 +90,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveAllBuildsWithStatus()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetAllBuildsWithStatus(BuildStatus.SUCCESS).Result;
@@ -100,7 +100,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveAllBuildsByUser()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetBuildsByUser("prinay.panday").Result;
@@ -110,7 +110,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveAllBuildsByUserWithStatus()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetBuildsByUserWithStatus("prinay.panday", BuildStatus.FAILURE).Result;
@@ -120,7 +120,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveLastBuildForProjectByStatus()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetLastBuildWithStatusForProject(BuildStatus.SUCCESS, "Budget").Result;
@@ -130,7 +130,7 @@ namespace TeamCityTests
         [TestMethod]
         public void RetrieveAllRunningBuilds()
         {
-            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "910514Pr!nz0103",
+            var teamCity = new MyTeamCity.MyTeamCity("prinay.panday", "password",
                 "http://localhost:70");
 
             var builds = teamCity.GetRunningBuilds().Result;
