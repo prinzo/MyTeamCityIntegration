@@ -54,6 +54,8 @@
     <Compile Include="TeamCityModels\lastChanges.cs" />
     <Compile Include="TeamCityModels\Project.cs" />
     <Compile Include="TeamCityModels\ProjectList.cs" />
+    <Compile Include="TeamCityModels\RunningBuild.cs" />
+    <Compile Include="TeamCityModels\RunningBuildList.cs" />
     <Compile Include="TeamCityModels\TeamCityBuildList.cs" />
     <Compile Include="TeamCityModels\UserList.cs" />
     <Compile Include="TeamCityModels\User.cs" />

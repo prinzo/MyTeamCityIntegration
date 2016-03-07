@@ -273,6 +273,27 @@ namespace MyTeamCity
                 return builds.build.OrderByDescending(x => x.id).FirstOrDefault();
             }
         }
+
+        public async Task<RunningBuildList> GetRunningBuilds()
+        {
+            using (webClient = new HttpClient())
+            {
+                webClient.BaseAddress = new Uri(TeamCityServer);
+                webClient.DefaultRequestHeaders.Accept.Clear();
+                webClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var encoded = System.Convert.ToBase64String(System.Text.Encoding.GetEncoding("ISO-8859-1")
+                  .GetBytes(
+                  Username + ":" + Password));
+                webClient.DefaultRequestHeaders.Add("Authorization", "Basic " + encoded);
+
+                var response = await webClient.GetAsync("app/rest/builds?locator=running:true");
+                var responseAsyncString = response.Content.ReadAsStringAsync();
+                var responseResult = responseAsyncString.Result;
+
+                return JsonConvert.DeserializeObject<RunningBuildList>(responseResult);
+            }
+        }
         
 
 
